@@ -1,0 +1,12 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -kdb=common_elab -kdb=incopt -sverilog -skip_translate_body +define+SYNTHESIS -q -timescale=1ns/1ns -full64 -work impl -full64
+
+all :		_VCSgd_ZKe7Le_1.db \
+
+
+
+_VCSgd_ZKe7Le_1.db :	../RTL/DFF.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ../RTL/DFF.sv
+
+

@@ -1,0 +1,5 @@
+{"comelab":{"timestamp_begin":1794089783.687777442, "rt":4.16, "ut":1.16, "st":2.91}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1794089781.874689892}
+{"VCS_COMP_START_TIME": 1794089781.874689892}
+{"VCS_COMP_END_TIME": 1794089788.091719210}
+{"VCS_USER_OPTIONS": "-file /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/elaborateCmd -Xvcstatic_extns=0x4 -Xvcstatic_extns=0x1000 -Xvcstatic_extns=0x100 +warn=noSM_CCE -units -error=IRRIPS -kdb=common_elab -Xufe=parallel:incrdump -kdb=incopt +warn=noKDB-ELAB-E -Xverdi_elab_opts=-saveLevel -verdi_opts -logdir /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/verdi/elabcomLog  -Xvd_opts=,-ssy,-ssv,-ssz,-silent,+disable_message+C00373, -full64"}

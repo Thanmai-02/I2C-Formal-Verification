@@ -1,0 +1,7 @@
+Command exited with non-zero status 237
+{"vcs1":{"timestamp_begin":1794089673.524569728, "rt":0.37, "ut":0.22, "st":0.09}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1794089672.307861764}
+{"VCS_COMP_START_TIME": 1794089672.307861764}
+{"VCS_COMP_END_TIME": 1794089674.074205162}
+{"VCS_USER_OPTIONS": "-sverilog -Xmonet -scm /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/_VCF_PROP_0.xml -o /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/work._VCF_PROP_0.exe -Mdir=/home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/csrc +warn=noIWNF +warn=noELW_UNBOUND -suppress=DB_LOAD -suppress=SIMU-RESOLUTION -q -l /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/logs/_VCF_PROP_0.vcslog -assert svaext -cm assert -error=noMPD -full64 /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/formal/_prop_1.sv"}
+{"vcs1": {"peak_mem": 348484}}

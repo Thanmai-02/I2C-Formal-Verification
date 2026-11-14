@@ -1,0 +1,102 @@
+
+
+### action	Num_calls 7	Total_time 0.225884	Total_CpuTime 0.02	Total malloc-M 0
+1	Shell:	Time:0.213288	CpuTime:0.01	 Malloc-MB:0
+2	Shell:	Time:0.009378	CpuTime:0.00	 Malloc-MB:0
+3	Shell:	Time:0.00148	CpuTime:0.00	 Malloc-MB:0
+
+### check_fv	Num_calls 1	Total_time 0.308597	Total_CpuTime 0.1	Total malloc-M 0
+1	Shell:	Time:0.308597	CpuTime:0.10	 Malloc-MB:0
+
+### configure_tag	Num_calls 1	Total_time 0.059826	Total_CpuTime 0.04	Total malloc-M 5
+1	File:/pkgs/synopsys/current/vc_static/auxx/monet/tcl/merge_commands.tcl::0	Time:0.059826	CpuTime:0.04	 Malloc-MB:5
+
+### create_clock	Num_calls 1	Total_time 0.03069	Total_CpuTime 0.03	Total malloc-M 0
+1	File:run_fpv.tcl::6	Time:0.03069	CpuTime:0.03	 Malloc-MB:0
+
+### create_proc_command	Num_calls 244	Total_time 0.024102	Total_CpuTime 0.02	Total malloc-M 1
+
+### create_reset	Num_calls 1	Total_time 0.002146	Total_CpuTime 0	Total malloc-M 0
+1	File:run_fpv.tcl::7	Time:0.002146	CpuTime:0.00	 Malloc-MB:0
+
+### fv_app	Num_calls 1	Total_time 0.000137	Total_CpuTime 0	Total malloc-M 0
+
+### fv_update_command_consistency_flow	Num_calls 1	Total_time 0.001055	Total_CpuTime 0	Total malloc-M 0
+1	File:/pkgs/synopsys/current/vc_static/auxx/monet/tcl/fv_command_consistency_helper.tcl::0	Time:0.001055	CpuTime:0.00	 Malloc-MB:0
+
+### fv_var_report	Num_calls 1	Total_time 0.00016	Total_CpuTime 0	Total malloc-M 0
+
+### fvassert	Num_calls 2	Total_time 4.59451	Total_CpuTime 1.53	Total malloc-M 0
+1	File:run_fpv.tcl::14	Time:2.35857	CpuTime:0.81	 Malloc-MB:0
+2	File:run_fpv.tcl::13	Time:2.23594	CpuTime:0.72	 Malloc-MB:0
+
+### get_blackbox	Num_calls 1	Total_time 0.000327	Total_CpuTime 0	Total malloc-M 0
+
+### get_glassbox	Num_calls 1	Total_time 9.8e-05	Total_CpuTime 0	Total malloc-M 0
+
+### get_message_db_ptr	Num_calls 1	Total_time 1e-05	Total_CpuTime 0	Total malloc-M 0
+
+### get_report_db_ptr	Num_calls 1	Total_time 1.6e-05	Total_CpuTime 0	Total malloc-M 0
+
+### get_snips	Num_calls 1	Total_time 0.000312	Total_CpuTime 0	Total malloc-M 0
+
+### proc_cmd_command_consistency_check	Num_calls 1	Total_time 7.3e-05	Total_CpuTime 0	Total malloc-M 0
+
+### read_file	Num_calls 1	Total_time 3.76324	Total_CpuTime 1.38	Total malloc-M 28
+1	File:run_fpv.tcl::4	Time:3.76324	CpuTime:1.38	 Malloc-MB:28
+
+### report_constant	Num_calls 1	Total_time 0.000306	Total_CpuTime 0	Total malloc-M 0
+
+### report_grid_usage	Num_calls 1	Total_time 0.000308	Total_CpuTime 0	Total malloc-M 0
+
+### report_vcst_var	Num_calls 1	Total_time 0.003642	Total_CpuTime 0	Total malloc-M 0
+1	Shell:	Time:0.003642	CpuTime:0.00	 Malloc-MB:0
+
+### restore_session	Num_calls 1	Total_time 0.000116	Total_CpuTime 0	Total malloc-M 0
+
+### sim_run	Num_calls 1	Total_time 0.038712	Total_CpuTime 0.01	Total malloc-M 12
+1	File:run_fpv.tcl::9	Time:0.038712	CpuTime:0.01	 Malloc-MB:12
+
+### sim_save_reset	Num_calls 1	Total_time 0.0883	Total_CpuTime 0	Total malloc-M -11
+1	File:run_fpv.tcl::10	Time:0.0883	CpuTime:0.00	 Malloc-MB:-11
+
+### verdi_cmd	Num_calls 3	Total_time 0.829324	Total_CpuTime 0	Total malloc-M 0
+1	Shell:	Time:0.687391	CpuTime:0.00	 Malloc-MB:0
+2	Shell:	Time:0.134015	CpuTime:0.00	 Malloc-MB:0
+3	Shell:	Time:0.007918	CpuTime:0.00	 Malloc-MB:0
+
+ ****************************Shell commands Recording************************
+___fvReportGridUsage /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/verdi/gridUsage.xml0
+
+
+ ****************************ThreadTask Recording************************
+Thread: CommonMgr Time: 0(s) Mem: 0(KB) MaxSize: 0
+Thread: ReportDb Time: 0.0672078(s) Mem: 152(KB) MaxSize: 2
+Thread: watchdog Time: 0.00085187(s) Mem: -16(KB) MaxSize: 1
+
+
+ ****************************ProcessTask Recording************************
+
+ Task : VCS Reader Task
+ args: sh,-c,$VCS_HOME/bin/vcs /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/undef_vcs.v -file /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/vcsCmd -Xvcstatic_extns=0x100  +warn=noSM_CCE  -error=IRRIPS  -kdb=common_elab  -Xufe=parallel:incrdump  -kdb=incopt  +warn=noKDB-ELAB-E  +warn=noELW_UNBOUND  -Xverdi_elab_opts=-saveLevel  -verdi_opts "-logdir /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/verdi/elabcomLog " -Xvd_opts=-silent,-ssy,-ssv,-ssz,+disable_message+C00373, -full64
+ file: run_fpv.tcl line: 4
+ Start Time: 5.08307, 1.18
+ End Time: 8.69753, 2.45
+
+ Task : compileProperty
+ args: sh,-c,$VCS_HOME/bin/vcs -sverilog  -Xmonet  -scm /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/_VCF_PROP_0.xml -o /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/work._VCF_PROP_0.exe -Mdir=/home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/csrc +warn=noIWNF +warn=noELW_UNBOUND -suppress=DB_LOAD -suppress=SIMU-RESOLUTION -q -l /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/logs/_VCF_PROP_0.vcslog  -assert svaext  -cm assert  -error=noMPD  -full64 /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/formal/_prop_0.sv
+ file: run_fpv.tcl line: 13
+ Start Time: 8.98417, 2.59
+ End Time: 11.203, 3.31
+
+ Task : compileProperty
+ args: sh,-c,$VCS_HOME/bin/vcs -sverilog  -Xmonet  -scm /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/_VCF_PROP_0.xml -o /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/work._VCF_PROP_0.exe -Mdir=/home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/csrc +warn=noIWNF +warn=noELW_UNBOUND -suppress=DB_LOAD -suppress=SIMU-RESOLUTION -q -l /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/logs/_VCF_PROP_0.vcslog  -assert svaext  -cm assert  -error=noMPD  -full64 /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/formal/_prop_1.sv
+ file: run_fpv.tcl line: 14
+ Start Time: 11.2173, 3.32
+ End Time: 13.5617, 4.12
+
+ Task : TW_0
+ args: tw_master_csc,-log,/home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/formal/fpId0/tw/tw.log,-interactive,-workDir,/home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/formal/fpId0/tw,-worker,4,-encryptLogs,-time,12
+ file:  line: 0
+ Start Time: 22.547, 4.23
+ End Time: 37.8671, 8.48

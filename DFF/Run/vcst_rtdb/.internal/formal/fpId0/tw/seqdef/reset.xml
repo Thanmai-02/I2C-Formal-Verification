@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<File version="1">
+	<State>
+		<Pair vector="1'b0" name="spec.Q" />
+		<Pair vector="1'b0" name="impl.Q" />
+		<Pair vector="1'b1" name="_BM_CLKGEN_.CSR0_2" />
+		<Pair vector="1'b0" name="i_prop_VCFSVAC0._SVAC_1_ended_reg" />
+		<Pair vector="1'b0" name="i_prop_VCFSVAC0._SVAC_1_ended_reg_0" />
+	</State>
+	<Input>
+		<Pair vector="1'b1" name="_atZero" />
+		<Pair vector="1'bx" name="_BME.impl.D" />
+		<Pair vector="1'b1" name="_BME.$reset" />
+		<Pair vector="1'bx" name="impl.Clear" />
+		<Pair vector="1'bx" name="impl.Clock" />
+		<Pair vector="1'bx" name="impl.D" />
+		<Pair vector="1'bx" name="spec.Clear" />
+		<Pair vector="1'bx" name="spec.Clock" />
+		<Pair vector="1'bx" name="spec.D" />
+	</Input>
+</File>

@@ -1,0 +1,19 @@
+14:14:24 : gui:phobos.ece.pdx.edu:45677
+14:14:24 : ___vcstRenameMan
+14:14:25 : ___vcDumpDefMsgColor
+14:14:25 : ___vcChangeMsgColor msg_color_warn magenta
+14:14:25 : ___vcChangeMsgColor msg_color_info black
+14:14:25 : MasterSourceFile run_fpv.tcl
+14:14:34 : ___fvSavePropDBToStream
+14:14:34 : get_blackbox -designs -verdi
+14:14:34 : get_glassbox -verdi
+14:14:34 : get_snips -verdi
+14:14:34 : ___fvWaitAnnotation
+14:14:34 : ___fvSetReuseWave
+14:14:34 : action aaVerdiRestoreClipboard -trigger
+14:14:34 : ___fvSyncSignoffCovParam {action aaMonetSyncSignoffCovParam -effortIndex 0 -trigger}
+14:14:34 : ___vcDisplayAbstractSrcFromAutoBBox
+14:14:35 : ___fvSavePropDBToStream
+14:14:35 : ___fvReportConstant {/home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/verdi/constant.xml}
+14:14:42 : check_fv
+14:14:43 : ___fvReportGridUsage /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/verdi/gridUsage.xml0

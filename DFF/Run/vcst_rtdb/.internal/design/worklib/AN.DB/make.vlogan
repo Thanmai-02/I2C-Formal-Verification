@@ -1,0 +1,12 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -kdb=common_elab -kdb=incopt -sverilog -skip_translate_body +define+SYNTHESIS -q -timescale=1ns/1ns -full64 -full64
+
+all :		_VCSgd_iSf6Jd_1.db \
+
+
+
+_VCSgd_iSf6Jd_1.db :	/home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/_snps_seq_top.sv 
+		${VLOGAN}  ${VLOGAN_OPT} /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/_snps_seq_top.sv
+
+

@@ -1,0 +1,3 @@
+Command Line: /pkgs/synopsys/current/vc_static/vcs-mx/linux64/bin/elabcom -simflow -KDBRESOLVER -simvdaidir /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/seq_top.exe.daidir -logdir /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/verdi/elabcomLog -Xprefer_tech_lib -saveLevel -ssy -ssv -ssz -silent +disable_message+C00373 -partialdesign -q -logdir /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/design/seq_top.exe.daidir/kdbresolverLog
+uname(Linux phobos.ece.pdx.edu 5.14.0-687.59.1.el9_8.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Oct 21 13:47:53 UTC 2026 x86_64)
+au time 0.213729 0.029923 0.041883 delta 22798336 22798336 total 272670720 272670720

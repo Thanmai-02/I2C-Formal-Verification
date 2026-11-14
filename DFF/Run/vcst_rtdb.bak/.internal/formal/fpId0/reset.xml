@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<File version="1">
+	<State>
+		<Pair vector="1'b0" name="inst1.Q" />
+		<Pair vector="1'b1" name="_BM_CLKGEN_.CSR0_2" />
+		<Pair vector="1'b0" name="i_prop_VCFSVAC0._SVAC_1_ended_reg" />
+		<Pair vector="1'b0" name="i_prop_VCFSVAC0._SVAC_1_ended_reg_0" />
+		<Pair vector="1'b0" name="i_prop_VCFSVAC0._SVAC_1_ended_reg_1" />
+		<Pair vector="1'b0" name="i_prop_VCFSVAC0._SVAC_1_states" />
+		<Pair vector="1'b0" name="i_prop_VCFSVAC0._SVAC_1_states_0" />
+		<Pair vector="1'b0" name="i_prop_VCFSVAC1._SVAC_1_ended_reg" />
+		<Pair vector="1'b0" name="i_prop_VCFSVAC1._SVAC_1_ended_reg_0" />
+		<Pair vector="1'b0" name="i_prop_VCFSVAC1._SVAC_1_ended_reg_1" />
+		<Pair vector="1'b0" name="i_prop_VCFSVAC1._SVAC_1_states" />
+		<Pair vector="1'b0" name="i_prop_VCFSVAC1._SVAC_1_states_0" />
+	</State>
+	<Input>
+		<Pair vector="1'b0" name="Clear" />
+		<Pair vector="1'bx" name="Clock" />
+		<Pair vector="1'bx" name="D" />
+		<Pair vector="1'b1" name="_atZero" />
+	</Input>
+</File>

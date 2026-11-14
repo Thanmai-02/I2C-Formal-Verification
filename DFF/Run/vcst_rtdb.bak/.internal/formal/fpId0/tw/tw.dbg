@@ -1,0 +1,112 @@
+;; Tanglewood started at Sat Nov  7 14:14:43 2026 with pid 3304143.
+;; version QSCT 5642819 Fri Sep 20 00:37:00 2024
+;; mode client
+;; using cdpl T-2022.03-SP3-6 
+;; using csc 4.13.0
+;; using MG_HOME /pkgs/synopsys/2024/vc_static/vc_static/V-2023.12-SP2-3
+;; using GL_HOME /pkgs/synopsys/2024/vc_static/vc_static/V-2023.12-SP2-3
+(tw-option-set! skip-lower-depth-msg-ext 3)
+(tw-option-set! tw-bh-random-workers 0)
+(tw-option-set! tw-bh-mode 0)
+(tw-option-set! tw-bh-randomize #f)
+(tw-option-set! upfront-worker-timeout 1)
+(tw-option-set! sss-mode 0)
+(tw-option-set! oct-mode 1977)
+(tw-option-set! oct-point 9)
+(tw-option-set! startup-optimization 0)
+(tw-option-set! seqaig-compression #t)
+(tw-option-set! tr-init-batch-size 10)
+(define max-mem-eng 8)
+(define llk-opts " -effort 0 -trace_effort 4 -abstract_size 0 -base_abstract_size 30 -abstract_depth 0 -max_tsccs -1 -max_seeds 0 -max_states 20 -max_traces 1 -trace_mode 2 -reorder 1")
+(define llk-enable 0)
+(define llk-gl? #t)
+(define llk-mg? #t)
+(define fast-mode? #f)
+(define glconflict-opts "-depth 4 -minimal 1 -reason 1")
+(tw-option-set! exe-dir "/pkgs/synopsys/current/vc_static/linux64/ctg/bin")
+(tw-option-set! orc-strategy "default")
+(tw-option-set! caching-on #t)
+(tw-option-set! gen-invariant  #t)
+(tw-option-set! rma-auto #t)
+(tw-option-set! rma-auto-type 3)
+(tw-option-set! rma-inv-handler 1)
+(tw-option-set! app-name "fpv")
+(tw-option-set! engine-score-file "/home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/formal/fpId0/fv_eng_score")
+(tw-option-set! cdpl-log-filter #f)
+(tw-option-set! cdpl-log-compress #t)
+(tw-option-set! grid-prefetch-pct 0)
+(tw-option-set! grid-prefetch-timeout 3600)
+(tw-option-set! design-top-name "DFF_top")
+(tw-option-set! replay-hints #t)
+(tw-option-set! all-results #t)
+(tw-option-set! debug #f)
+(tw-option-set! peakmem-messages #t)
+(tw-option-set! crash-messages #t)
+(tw-option-set! task-rusage-messages #t)
+(tw-option-set! task-rusage-messages-interval 300)
+(define gl-deadend-opts "-resetcycles 100 -maxcycles 1000  -ignoreOutputFail -lookahead 1")
+(define gl-deadend-debug-opts "-minimal 1 -reason 1 -depth 1")
+(tw-option-set! trace-compression #t)
+(tw-option-set! max-workers-per-property -1)
+(tw-option-set! global-chain-db #f)
+(tw-option-set! tw-tool-version "2023.12")
+(define fta-om-flow #f)
+(tw-option-set! gridmem-acquisition-policy 1)
+(tw-option-set! gridmem-replacement-policy 1)
+(tw-option-set! interactive-mode #t)
+(tw-option-set! full-interactive-mode #t)
+(tw:log-load-bfse "ENGINE-DB" "/pkgs/synopsys/current/vc_static/auxx/ctg/tcl/tw_eng_db.enc")
+(tw:log-load-bfse "SCORE-FILE" "/home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/formal/fpId0/fv_eng_score")
+(acquire-dfg-vp 0 "/home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/formal/fpId0" '())
+(tw-option-set! rma-extended-mode 17)
+(tw-load-replay-data "/home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/formal/fpId0/retrieved_result/extended/rpl")
+(tw:log-load-bfse "RECIPE" "/pkgs/synopsys/current/vc_static/auxx/ctg/orc/fv_pv_default_v6.scme")
+(tw-option-set! edb-dbase-id 50000)
+(tw-play)
+;; XF-PASS:1
+;; XF-PASS:2
+;; XF-PASS:3
+;; XF-FAIL:17
+;; XF-FAIL:18
+;; 
+;; SMS
+;; -------------------------
+;; ID    CNT        TM        
+;; -------------------------
+;; 0     2          0         
+;; 1     8          0         
+;; 9     2          0         
+;; 10    2          0         
+;; 11    12017      0         
+;; 12    19         0         
+;; 13    19         0         
+;; 15    19         0         
+;; 16    1          0         
+;; 27    2          0         
+;; 33    10022      0         
+;; 
+;; PMS
+;; -------------------------
+;; ID    CNT        TM        
+;; -------------------------
+;; 19    13         0         
+;; 21    10000      0         
+;; 28    2          0         
+;; 38    2          0         
+;; 39    3          0         
+;; 50    2          0         
+;; 
+(tw-save-replay-data 0 "/home/bhanusai/common/Desktop/ECE560-Finalproject_f26/DFF/Run/vcst_rtdb/.internal/formal/fpId0/temp_extended/rpl")
+;;; v = 0
+;;; d = ()
+;;; b = ()
+;;; b-1 = ()
+;;; b-2 = ()
+;;; v = 1
+;;; d = (5 9 11 14 16)
+;;; b = ()
+;;; b-1 = ()
+;;; b-2 = ()
+;; creating task goal map at 15
+(tw-quit)
+;; Tanglewood stopped at Sat Nov  7 14:14:58 2026 after 15.095s (2.894  0.556)
