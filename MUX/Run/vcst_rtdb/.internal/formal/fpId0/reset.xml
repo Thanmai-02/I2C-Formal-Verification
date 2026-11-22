@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<File version="1">
+	<State />
+	<Input>
+		<Pair vector="1'b1" name="_atZero" />
+		<Pair vector="8'bx" name="_BME.impl.V" />
+		<Pair vector="3'bx" name="_BME.impl.S" />
+	</Input>
+</File>

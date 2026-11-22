@@ -1,0 +1,103 @@
+
+
+### action	Num_calls 7	Total_time 0.450143	Total_CpuTime 0.01	Total malloc-M 0
+1	Shell:	Time:0.153495	CpuTime:0.00	 Malloc-MB:0
+2	Shell:	Time:0.140913	CpuTime:0.00	 Malloc-MB:0
+3	Shell:	Time:0.116976	CpuTime:0.00	 Malloc-MB:0
+4	Shell:	Time:0.03305	CpuTime:0.00	 Malloc-MB:0
+5	Shell:	Time:0.00346	CpuTime:0.01	 Malloc-MB:0
+6	Shell:	Time:0.001912	CpuTime:0.00	 Malloc-MB:0
+
+### analyze	Num_calls 2	Total_time 3.93419	Total_CpuTime 0.63	Total malloc-M 2
+1	File:run_seq.tcl::3	Time:3.15183	CpuTime:0.39	 Malloc-MB:2
+2	File:run_seq.tcl::4	Time:0.782358	CpuTime:0.24	 Malloc-MB:0
+
+### check_fv	Num_calls 1	Total_time 0.538913	Total_CpuTime 0.12	Total malloc-M 1
+1	Shell:	Time:0.538913	CpuTime:0.12	 Malloc-MB:1
+
+### configure_tag	Num_calls 1	Total_time 0.079618	Total_CpuTime 0.06	Total malloc-M 5
+1	File:/pkgs/synopsys/current/vc_static/auxx/monet/tcl/merge_commands.tcl::0	Time:0.079618	CpuTime:0.06	 Malloc-MB:5
+
+### create_proc_command	Num_calls 244	Total_time 0.037273	Total_CpuTime 0.02	Total malloc-M 1
+1	File:/pkgs/synopsys/current/vc_static/auxx/monet/tcl/merge_commands.tcl::0	Time:0.001308	CpuTime:0.01	 Malloc-MB:0
+
+### elaborate_seq	Num_calls 1	Total_time 7.71647	Total_CpuTime 2.31	Total malloc-M 26
+1	File:run_seq.tcl::5	Time:7.71647	CpuTime:2.31	 Malloc-MB:26
+
+### fv_app	Num_calls 1	Total_time 0.000166	Total_CpuTime 0.01	Total malloc-M 0
+
+### fv_update_command_consistency_flow	Num_calls 1	Total_time 0.001308	Total_CpuTime 0	Total malloc-M 0
+1	File:/pkgs/synopsys/current/vc_static/auxx/monet/tcl/fv_command_consistency_helper.tcl::0	Time:0.001308	CpuTime:0.00	 Malloc-MB:0
+
+### fv_var_report	Num_calls 1	Total_time 0.00011	Total_CpuTime 0	Total malloc-M 0
+
+### fvassert	Num_calls 1	Total_time 0.002621	Total_CpuTime 0.01	Total malloc-M 0
+1	File:run_seq.tcl::9	Time:0.002621	CpuTime:0.01	 Malloc-MB:0
+
+### get_blackbox	Num_calls 1	Total_time 0.000323	Total_CpuTime 0	Total malloc-M 0
+
+### get_glassbox	Num_calls 1	Total_time 9.4e-05	Total_CpuTime 0	Total malloc-M 0
+
+### get_message_db_ptr	Num_calls 1	Total_time 2.7e-05	Total_CpuTime 0	Total malloc-M 0
+
+### get_report_db_ptr	Num_calls 1	Total_time 2.1e-05	Total_CpuTime 0	Total malloc-M 0
+
+### get_snips	Num_calls 2	Total_time 0.000453	Total_CpuTime 0	Total malloc-M 0
+
+### map_by_name	Num_calls 1	Total_time 0.06275	Total_CpuTime 0.02	Total malloc-M 0
+1	File:run_seq.tcl::7	Time:0.06275	CpuTime:0.02	 Malloc-MB:0
+
+### proc_cmd_command_consistency_check	Num_calls 1	Total_time 0.000148	Total_CpuTime 0	Total malloc-M 0
+
+### report_grid_usage	Num_calls 1	Total_time 0.000303	Total_CpuTime 0	Total malloc-M 0
+
+### report_vcst_var	Num_calls 1	Total_time 0.004287	Total_CpuTime 0	Total malloc-M 0
+1	Shell:	Time:0.004287	CpuTime:0.00	 Malloc-MB:0
+
+### restore_session	Num_calls 1	Total_time 0.000188	Total_CpuTime 0	Total malloc-M 0
+
+### verdi_cmd	Num_calls 2	Total_time 0.164611	Total_CpuTime 0.01	Total malloc-M 0
+1	Shell:	Time:0.155631	CpuTime:0.01	 Malloc-MB:0
+2	Shell:	Time:0.00898	CpuTime:0.00	 Malloc-MB:0
+
+ ****************************Shell commands Recording************************
+___fvReportGridUsage /home/bhanusai/common/Desktop/ECE506-Project_Fall2026/MUX/Run/vcst_rtdb/.internal/verdi/gridUsage.xml0
+
+
+ ****************************ThreadTask Recording************************
+Thread: CommonMgr Time: 0(s) Mem: 0(KB) MaxSize: 0
+Thread: ReportDb Time: 0.088135(s) Mem: 48(KB) MaxSize: 4
+Thread: watchdog Time: 0.000831842(s) Mem: -8(KB) MaxSize: 1
+
+
+ ****************************ProcessTask Recording************************
+
+ Task : VCS Analyzer Task
+ args: sh,-c,$VCS_HOME/bin/vlogan  -kdb=common_elab /home/bhanusai/common/Desktop/ECE506-Project_Fall2026/MUX/Run/vcst_rtdb/.internal/design/undef_vcs.v -Xvd_opts=-silent,+disable_message+C00373,-ssy,-ssv,-ssz -file /home/bhanusai/common/Desktop/ECE506-Project_Fall2026/MUX/Run/vcst_rtdb/.internal/design/analyzeCmd1 -kdb=incopt  -Xufe=parallel:incrdump  -full64  -libfile_opt 
+ file: run_seq.tcl line: 3
+ Start Time: 5.19031, 1.58
+ End Time: 8.20608, 1.87
+
+ Task : VCS Analyzer Task
+ args: sh,-c,$VCS_HOME/bin/vlogan  -kdb=common_elab /home/bhanusai/common/Desktop/ECE506-Project_Fall2026/MUX/Run/vcst_rtdb/.internal/design/undef_vcs.v -Xvd_opts=-silent,+disable_message+C00373,-ssy,-ssv,-ssz -file /home/bhanusai/common/Desktop/ECE506-Project_Fall2026/MUX/Run/vcst_rtdb/.internal/design/analyzeCmd2 -kdb=incopt  -Xufe=parallel:incrdump  -full64  -libfile_opt 
+ file: run_seq.tcl line: 4
+ Start Time: 8.33387, 1.97
+ End Time: 9.09079, 2.21
+
+ Task : VCS Analyzer Task
+ args: sh,-c,$VCS_HOME/bin/vlogan  -kdb=common_elab /home/bhanusai/common/Desktop/ECE506-Project_Fall2026/MUX/Run/vcst_rtdb/.internal/design/undef_vcs.v -Xvd_opts=-silent,+disable_message+C00373,-ssy,-ssv,-ssz -file /home/bhanusai/common/Desktop/ECE506-Project_Fall2026/MUX/Run/vcst_rtdb/.internal/design/analyzeCmd3 -kdb=incopt  -Xufe=parallel:incrdump  -full64  -libfile_opt 
+ file: run_seq.tcl line: 5
+ Start Time: 9.10282, 2.21
+ End Time: 9.86146, 2.45
+
+ Task : VCS Elaborater Task
+ args: sh,-c,$VCS_HOME/bin/vcs -file /home/bhanusai/common/Desktop/ECE506-Project_Fall2026/MUX/Run/vcst_rtdb/.internal/design/elaborateCmd -Xvcstatic_extns=0x4  -Xvcstatic_extns=0x1000  -Xvcstatic_extns=0x100  +warn=noSM_CCE  -units  -error=IRRIPS  -kdb=common_elab  -Xufe=parallel:incrdump  -kdb=incopt  +warn=noKDB-ELAB-E  -Xverdi_elab_opts=-saveLevel  -verdi_opts "-logdir /home/bhanusai/common/Desktop/ECE506-Project_Fall2026/MUX/Run/vcst_rtdb/verdi/elabcomLog " -Xvd_opts=,-ssy,-ssv,-ssz,-silent,+disable_message+C00373, -full64 
+ file: run_seq.tcl line: 5
+ Start Time: 9.94504, 2.51
+ End Time: 16.8039, 4.52
+
+ Task : TW_0
+ args: seeq1,-log,/home/bhanusai/common/Desktop/ECE506-Project_Fall2026/MUX/Run/vcst_rtdb/.internal/formal/fpId0/tw/tw.log.gz,-interactive,-workDir,/home/bhanusai/common/Desktop/ECE506-Project_Fall2026/MUX/Run/vcst_rtdb/.internal/formal/fpId0/tw,-worker,4,-encryptLogs,-gz_logfile,-script,/pkgs/synopsys/current/vc_static/auxx/monet/tcl/seq_vsi_init.tcl,-exec,mpRunGenericTclMaster,-time,12
+ file:  line: 0
+ Start Time: 24.0436, 4.67
+ End Time: 34.5753, 5.26

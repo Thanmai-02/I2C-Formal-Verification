@@ -1,0 +1,4 @@
+DEFAULT.seq_top#/home/bhanusai/common/Desktop/ECE506-Project_Fall2026/MUX/Run/vcst_rtdb/.internal/design/_snps_seq_top.sv
+SPEC.Mux8to1_2#../RTL/Mux8to1_2.sv
+IMPL.Mux8to1#../RTL/Mux8to1.sv
+seq_config_cfg1

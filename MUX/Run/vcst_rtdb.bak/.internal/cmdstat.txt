@@ -1,0 +1,102 @@
+
+
+### action	Num_calls 7	Total_time 0.293591	Total_CpuTime 0.01	Total malloc-M 0
+1	Shell:	Time:0.160317	CpuTime:0.01	 Malloc-MB:0
+2	Shell:	Time:0.122244	CpuTime:0.00	 Malloc-MB:0
+3	Shell:	Time:0.00486	CpuTime:0.00	 Malloc-MB:0
+4	Shell:	Time:0.002575	CpuTime:0.00	 Malloc-MB:0
+5	Shell:	Time:0.002016	CpuTime:0.00	 Malloc-MB:0
+6	Shell:	Time:0.001225	CpuTime:0.00	 Malloc-MB:0
+
+### analyze	Num_calls 2	Total_time 1.68758	Total_CpuTime 0.64	Total malloc-M 2
+1	File:run_seq.tcl::3	Time:0.937326	CpuTime:0.39	 Malloc-MB:2
+2	File:run_seq.tcl::4	Time:0.750257	CpuTime:0.25	 Malloc-MB:0
+
+### check_fv	Num_calls 1	Total_time 0.414076	Total_CpuTime 0.11	Total malloc-M 1
+1	Shell:	Time:0.414076	CpuTime:0.11	 Malloc-MB:1
+
+### configure_tag	Num_calls 1	Total_time 0.065244	Total_CpuTime 0.06	Total malloc-M 5
+1	File:/pkgs/synopsys/current/vc_static/auxx/monet/tcl/merge_commands.tcl::0	Time:0.065244	CpuTime:0.06	 Malloc-MB:5
+
+### create_proc_command	Num_calls 244	Total_time 0.032335	Total_CpuTime 0.03	Total malloc-M 1
+
+### elaborate_seq	Num_calls 1	Total_time 7.62755	Total_CpuTime 2.45	Total malloc-M 26
+1	File:run_seq.tcl::5	Time:7.62755	CpuTime:2.45	 Malloc-MB:26
+
+### fv_app	Num_calls 1	Total_time 0.000147	Total_CpuTime 0	Total malloc-M 0
+
+### fv_update_command_consistency_flow	Num_calls 1	Total_time 0.001146	Total_CpuTime 0	Total malloc-M 0
+1	File:/pkgs/synopsys/current/vc_static/auxx/monet/tcl/fv_command_consistency_helper.tcl::0	Time:0.001146	CpuTime:0.00	 Malloc-MB:0
+
+### fv_var_report	Num_calls 1	Total_time 5.6e-05	Total_CpuTime 0	Total malloc-M 0
+
+### fvassert	Num_calls 1	Total_time 0.004175	Total_CpuTime 0	Total malloc-M 0
+1	File:run_seq.tcl::9	Time:0.004175	CpuTime:0.00	 Malloc-MB:0
+
+### get_blackbox	Num_calls 1	Total_time 0.000196	Total_CpuTime 0	Total malloc-M 0
+
+### get_glassbox	Num_calls 1	Total_time 0.000307	Total_CpuTime 0	Total malloc-M 0
+
+### get_message_db_ptr	Num_calls 1	Total_time 3.8e-05	Total_CpuTime 0	Total malloc-M 0
+
+### get_report_db_ptr	Num_calls 1	Total_time 2.1e-05	Total_CpuTime 0	Total malloc-M 0
+
+### get_snips	Num_calls 2	Total_time 0.000717	Total_CpuTime 0	Total malloc-M 0
+
+### map_by_name	Num_calls 1	Total_time 0.037784	Total_CpuTime 0.02	Total malloc-M 0
+1	File:run_seq.tcl::7	Time:0.037784	CpuTime:0.02	 Malloc-MB:0
+
+### proc_cmd_command_consistency_check	Num_calls 1	Total_time 8.9e-05	Total_CpuTime 0	Total malloc-M 0
+
+### report_grid_usage	Num_calls 1	Total_time 0.000336	Total_CpuTime 0	Total malloc-M 0
+
+### report_vcst_var	Num_calls 1	Total_time 0.004137	Total_CpuTime 0	Total malloc-M 0
+1	Shell:	Time:0.004137	CpuTime:0.00	 Malloc-MB:0
+
+### restore_session	Num_calls 1	Total_time 0.000281	Total_CpuTime 0	Total malloc-M 0
+
+### verdi_cmd	Num_calls 2	Total_time 0.244768	Total_CpuTime 0	Total malloc-M 0
+1	Shell:	Time:0.236797	CpuTime:0.00	 Malloc-MB:0
+2	Shell:	Time:0.007971	CpuTime:0.00	 Malloc-MB:0
+
+ ****************************Shell commands Recording************************
+___fvReportGridUsage /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/MUX/Run/vcst_rtdb/.internal/verdi/gridUsage.xml0
+
+
+ ****************************ThreadTask Recording************************
+Thread: CommonMgr Time: 0(s) Mem: 0(KB) MaxSize: 0
+Thread: ReportDb Time: 0.095377(s) Mem: -920(KB) MaxSize: 4
+Thread: watchdog Time: 0.000520945(s) Mem: 0(KB) MaxSize: 1
+
+
+ ****************************ProcessTask Recording************************
+
+ Task : VCS Analyzer Task
+ args: sh,-c,$VCS_HOME/bin/vlogan  -kdb=common_elab /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/MUX/Run/vcst_rtdb/.internal/design/undef_vcs.v -Xvd_opts=-silent,+disable_message+C00373,-ssy,-ssv,-ssz -file /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/MUX/Run/vcst_rtdb/.internal/design/analyzeCmd1 -kdb=incopt  -Xufe=parallel:incrdump  -full64  -libfile_opt 
+ file: run_seq.tcl line: 3
+ Start Time: 4.80884, 1.54
+ End Time: 5.618, 1.83
+
+ Task : VCS Analyzer Task
+ args: sh,-c,$VCS_HOME/bin/vlogan  -kdb=common_elab /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/MUX/Run/vcst_rtdb/.internal/design/undef_vcs.v -Xvd_opts=-silent,+disable_message+C00373,-ssy,-ssv,-ssz -file /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/MUX/Run/vcst_rtdb/.internal/design/analyzeCmd2 -kdb=incopt  -Xufe=parallel:incrdump  -full64  -libfile_opt 
+ file: run_seq.tcl line: 4
+ Start Time: 5.73361, 1.93
+ End Time: 6.46898, 2.18
+
+ Task : VCS Analyzer Task
+ args: sh,-c,$VCS_HOME/bin/vlogan  -kdb=common_elab /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/MUX/Run/vcst_rtdb/.internal/design/undef_vcs.v -Xvd_opts=-silent,+disable_message+C00373,-ssy,-ssv,-ssz -file /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/MUX/Run/vcst_rtdb/.internal/design/analyzeCmd3 -kdb=incopt  -Xufe=parallel:incrdump  -full64  -libfile_opt 
+ file: run_seq.tcl line: 5
+ Start Time: 6.4805, 2.18
+ End Time: 7.22917, 2.43
+
+ Task : VCS Elaborater Task
+ args: sh,-c,$VCS_HOME/bin/vcs -file /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/MUX/Run/vcst_rtdb/.internal/design/elaborateCmd -Xvcstatic_extns=0x4  -Xvcstatic_extns=0x1000  -Xvcstatic_extns=0x100  +warn=noSM_CCE  -units  -error=IRRIPS  -kdb=common_elab  -Xufe=parallel:incrdump  -kdb=incopt  +warn=noKDB-ELAB-E  -Xverdi_elab_opts=-saveLevel  -verdi_opts "-logdir /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/MUX/Run/vcst_rtdb/verdi/elabcomLog " -Xvd_opts=,-ssy,-ssv,-ssz,-silent,+disable_message+C00373, -full64 
+ file: run_seq.tcl line: 5
+ Start Time: 7.31222, 2.5
+ End Time: 14.0928, 4.63
+
+ Task : TW_0
+ args: seeq1,-log,/home/bhanusai/common/Desktop/ECE560-Finalproject_f26/MUX/Run/vcst_rtdb/.internal/formal/fpId0/tw/tw.log.gz,-interactive,-workDir,/home/bhanusai/common/Desktop/ECE560-Finalproject_f26/MUX/Run/vcst_rtdb/.internal/formal/fpId0/tw,-worker,4,-encryptLogs,-gz_logfile,-script,/pkgs/synopsys/current/vc_static/auxx/monet/tcl/seq_vsi_init.tcl,-exec,mpRunGenericTclMaster,-time,12
+ file:  line: 0
+ Start Time: 20.7982, 4.78
+ End Time: 31.0042, 5.53

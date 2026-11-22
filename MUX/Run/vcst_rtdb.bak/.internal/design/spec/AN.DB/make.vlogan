@@ -1,0 +1,12 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -kdb=common_elab -kdb=incopt -sverilog -skip_translate_body +define+SYNTHESIS -q -timescale=1ns/1ns -full64 -work spec -full64
+
+all :		_VCSgd_8WCgg_1.db \
+
+
+
+_VCSgd_8WCgg_1.db :	../RTL/Mux8to1_2.sv 
+		${VLOGAN}  ${VLOGAN_OPT} ../RTL/Mux8to1_2.sv
+
+

@@ -1,0 +1,14 @@
+-- default WORK mapping
+WORK > DEFAULT
+TIMEBASE = PS
+
+DISAMBIG_CONCAT=TRUE
+
+OVERWRITE_PREDECLARATION_IN_LIB=TRUE
+
+-- user specified
+SPEC : /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/MUX/Run/vcst_rtdb/.internal/design/spec_verdi
+
+-- user specified
+IMPL : /home/bhanusai/common/Desktop/ECE560-Finalproject_f26/MUX/Run/vcst_rtdb/.internal/design/impl_verdi
+
